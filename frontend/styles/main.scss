@@ -1,6 +1,18 @@
-.navbar-brand {
-    img {
-        max-height: 40px;
+.navbar-brand {}
 
-    }
+.navbar-brand img {
+    max-height: 40px;
+
+}
+
+.jumbotron {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+
+
+}
+
+.jumbotron p {
+    color: red;
 }
