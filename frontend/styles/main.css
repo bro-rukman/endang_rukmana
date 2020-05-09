@@ -7,6 +7,14 @@ body {
   max-height: 40px;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #45266d !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
 .nav-item:hover {
   border-bottom: 3px solid black;
 }
@@ -18,13 +26,6 @@ body {
 
 .btn-login:hover {
   background-color: #be2a2a;
-}
-
-.btn-navbar-right {
-  margin-top: -10px !important;
-  margin-bottom: -8px !important;
-  margin-right: -18px !important;
-  height: 55px;
 }
 
 .bg {
