@@ -7,18 +7,34 @@ body {
   max-height: 40px;
 }
 
+.nav-item:hover {
+  border-bottom: 3px solid black;
+}
+
+.btn-login {
+  background: #f83434;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #be2a2a;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 55px;
+}
+
 .bg {
   position: relative;
   background-repeat: no-repeat;
 }
 
-.bg .container {
-  text-align: center;
-}
-
-.container h1 {
+.bg .container h1 {
   text-align: center;
   color: #000000;
-  margin-top: -90px;
+  margin-top: -450px;
 }
 /*# sourceMappingURL=main.css.map */

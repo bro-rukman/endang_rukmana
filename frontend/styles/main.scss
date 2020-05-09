@@ -3,9 +3,32 @@ body {
     background-size: cover;
 }
 
-.navbar-brand img {
-    max-height: 40px;
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
 
+.nav-item:hover {
+    border-bottom: 3px solid black;
+
+}
+
+.btn-login {
+    background: rgb(248, 52, 52);
+    color: #fff;
+
+    &:hover {
+        background-color: rgb(190, 42, 42);
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 55px;
 }
 
 
@@ -14,14 +37,11 @@ body {
     background-repeat: no-repeat;
 
     .container {
-        text-align: center;
+        h1 {
+            text-align: center;
+            color: #000000;
+            margin-top: -450px;
+        }
 
     }
-}
-
-.container h1 {
-    text-align: center;
-    color: #000000;
-    margin-top: -90px;
-
 }
