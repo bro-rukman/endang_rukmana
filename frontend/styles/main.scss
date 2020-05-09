@@ -1,18 +1,27 @@
-.navbar-brand {}
+body {
+    background-color: #fff;
+    background-size: cover;
+}
 
 .navbar-brand img {
     max-height: 40px;
 
 }
 
-.jumbotron {
-    width: 200px;
-    height: 200px;
-    background-color: #000000;
 
+.bg {
+    position: relative;
+    background-repeat: no-repeat;
 
+    .container {
+        text-align: center;
+
+    }
 }
 
-.jumbotron p {
-    color: red;
+.container h1 {
+    text-align: center;
+    color: #000000;
+    margin-top: -90px;
+
 }
