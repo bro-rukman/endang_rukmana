@@ -1,6 +1,7 @@
 body {
   background-color: #fff;
   background-size: cover;
+  font-family: 'Bree Serif', serif;
 }
 
 .navbar-brand img {
@@ -36,6 +37,7 @@ body {
 .bg .container h1 {
   text-align: center;
   color: #000000;
-  margin-top: -450px;
+  margin-top: -40px;
+  font-family: 'Bree Serif', serif;
 }
 /*# sourceMappingURL=main.css.map */
