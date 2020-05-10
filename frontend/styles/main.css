@@ -1,11 +1,14 @@
 body {
   background-color: #fff;
   background-size: cover;
-  font-family: 'Bree Serif', serif;
 }
 
 .navbar-brand img {
   max-height: 40px;
+}
+
+.navbar-light {
+  font-family: 'Bree Serif', serif;
 }
 
 .navbar-light .navbar-nav .nav-link {

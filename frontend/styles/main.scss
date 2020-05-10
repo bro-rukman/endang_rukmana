@@ -1,7 +1,7 @@
 body {
     background-color: #fff;
     background-size: cover;
-    font-family: 'Bree Serif', serif;
+
 }
 
 .navbar-brand {
@@ -11,6 +11,8 @@ body {
 }
 
 .navbar-light {
+    font-family: 'Bree Serif', serif;
+
     .navbar-nav {
         .nav-link {
             color: rgb(69, 38, 109) !important;
