@@ -87,7 +87,9 @@ header {
 .barOption {
     margin-top: -50px;
 
+
     .barDetail {
+        box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.46);
         background-color: rgb(9, 121, 87);
 
         // border-radius: 4px;
@@ -176,8 +178,11 @@ header {
 }
 
 .ourNetwork {
-    background-color: rgb(243, 14, 14);
+    // background-color: rgb(243, 14, 14);
     margin-top: 5px;
+    padding-top: 50px;
+    margin-bottom: 55px;
+
 
     h1 {
         font-family: 'Bree Serif', serif;
@@ -189,4 +194,67 @@ header {
         width: 150px;
         height: 100px;
     }
+}
+
+.testimoni {
+    min-height: 540px;
+    background-color: rgb(100, 9, 136);
+    margin-top: -55px;
+    margin-bottom: -230px;
+    min-height: 540px;
+
+    h2 {
+        font-family: 'Bree Serif', serif;
+        padding-top: 120px;
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.cardTestimoni {
+    .cardTestimoniItem {
+        min-height: 320px;
+        background-color: rgb(180, 180, 180);
+        background-size: cover;
+        padding-bottom: 20px;
+        box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.46);
+        margin-bottom: 5px;
+
+
+        img {
+            padding-top: 50px;
+        }
+
+        p {
+            border-bottom: 1px solid black;
+            padding-bottom: 55px;
+        }
+
+    }
+}
+
+.sideBar {
+    background-color: rgb(255, 255, 255);
+}
+
+.footerRow {
+    h5 {
+        font-family: 'Bree Serif', serif;
+        color: rebeccapurple;
+    }
+
+    a {
+        color: black;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+
+.reserved {
+    background-color: rgb(104, 102, 102);
 }

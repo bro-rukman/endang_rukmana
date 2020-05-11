@@ -73,6 +73,8 @@ header .btnGet:hover {
 }
 
 .barOption .barDetail {
+  -webkit-box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.46);
+          box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.46);
   background-color: #097957;
 }
 
@@ -153,8 +155,9 @@ header .btnGet:hover {
 }
 
 .ourNetwork {
-  background-color: #f30e0e;
   margin-top: 5px;
+  padding-top: 50px;
+  margin-bottom: 55px;
 }
 
 .ourNetwork h1 {
@@ -166,5 +169,63 @@ header .btnGet:hover {
 .ourNetwork img {
   width: 150px;
   height: 100px;
+}
+
+.testimoni {
+  min-height: 540px;
+  background-color: #640988;
+  margin-top: -55px;
+  margin-bottom: -230px;
+  min-height: 540px;
+}
+
+.testimoni h2 {
+  font-family: 'Bree Serif', serif;
+  padding-top: 120px;
+  color: white;
+}
+
+.testimoni p {
+  color: white;
+}
+
+.cardTestimoni .cardTestimoniItem {
+  min-height: 320px;
+  background-color: #b4b4b4;
+  background-size: cover;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.46);
+          box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.46);
+  margin-bottom: 5px;
+}
+
+.cardTestimoni .cardTestimoniItem img {
+  padding-top: 50px;
+}
+
+.cardTestimoni .cardTestimoniItem p {
+  border-bottom: 1px solid black;
+  padding-bottom: 55px;
+}
+
+.sideBar {
+  background-color: white;
+}
+
+.footerRow h5 {
+  font-family: 'Bree Serif', serif;
+  color: rebeccapurple;
+}
+
+.footerRow a {
+  color: black;
+}
+
+.footerRow a:hover {
+  font-weight: bold;
+}
+
+.reserved {
+  background-color: #686666;
 }
 /*# sourceMappingURL=main.css.map */
