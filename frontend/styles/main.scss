@@ -1,6 +1,7 @@
 body {
     background-color: #fff;
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -79,5 +80,113 @@ header {
             background-color: rgb(123, 91, 155);
             color: black;
         }
+    }
+}
+
+// barOptions
+.barOption {
+    margin-top: -50px;
+
+    .barDetail {
+        background-color: rgb(9, 121, 87);
+
+        // border-radius: 4px;
+        h2 {
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 17px;
+            font-weight: medium;
+            color: rgb(48, 47, 47);
+        }
+    }
+}
+
+.menu {
+    background-color: rgb(100, 9, 136);
+    // z-index: -1;
+    margin-top: -55px;
+    margin-bottom: -230px;
+    min-height: 540px;
+
+
+    h1 {
+        font-family: 'Bree Serif', serif;
+        color: white;
+        padding-top: 110px;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.menuContent {
+
+    .cardContent {
+        min-height: 380px;
+        padding: 30px;
+        background-color: #000;
+        color: #fff;
+        background-size: cover;
+        padding-bottom: 20px;
+        box-shadow: 1px 4px 10px 0px rgba(0, 0, 0, 0.46);
+        margin-bottom: 5px;
+
+        .travelCountry {
+            font-size: 14px;
+            color: white;
+        }
+
+        .travelPlace {
+            font-size: 16px;
+            color: black;
+            font-family: 'Bree Serif', serif;
+        }
+
+        .travelButton {
+            .btnDetail {
+                background-color: rgb(253, 189, 52);
+                color: white;
+
+                &:hover {
+                    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.46);
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+.seeDetails {
+    border-bottom: 1px solid black;
+    margin-bottom: 0;
+
+    p {
+        color: black;
+        font-size: 18px;
+
+
+        &:hover {
+            color: rgb(6, 163, 103);
+        }
+    }
+}
+
+.ourNetwork {
+    background-color: rgb(243, 14, 14);
+    margin-top: 5px;
+
+    h1 {
+        font-family: 'Bree Serif', serif;
+        color: rebeccapurple;
+        margin-top: 10px;
+    }
+
+    img {
+        width: 150px;
+        height: 100px;
     }
 }

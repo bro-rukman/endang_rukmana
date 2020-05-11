@@ -1,6 +1,7 @@
 body {
   background-color: #fff;
   background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar-brand img {
@@ -65,5 +66,105 @@ header .btnGet {
 header .btnGet:hover {
   background-color: #7b5b9b;
   color: black;
+}
+
+.barOption {
+  margin-top: -50px;
+}
+
+.barOption .barDetail {
+  background-color: #097957;
+}
+
+.barOption .barDetail h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.barOption .barDetail p {
+  font-size: 17px;
+  font-weight: medium;
+  color: #302f2f;
+}
+
+.menu {
+  background-color: #640988;
+  margin-top: -55px;
+  margin-bottom: -230px;
+  min-height: 540px;
+}
+
+.menu h1 {
+  font-family: 'Bree Serif', serif;
+  color: white;
+  padding-top: 110px;
+}
+
+.menu p {
+  color: white;
+}
+
+.menuContent .cardContent {
+  min-height: 380px;
+  padding: 30px;
+  background-color: #000;
+  color: #fff;
+  background-size: cover;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 1px 4px 10px 0px rgba(0, 0, 0, 0.46);
+          box-shadow: 1px 4px 10px 0px rgba(0, 0, 0, 0.46);
+  margin-bottom: 5px;
+}
+
+.menuContent .cardContent .travelCountry {
+  font-size: 14px;
+  color: white;
+}
+
+.menuContent .cardContent .travelPlace {
+  font-size: 16px;
+  color: black;
+  font-family: 'Bree Serif', serif;
+}
+
+.menuContent .cardContent .travelButton .btnDetail {
+  background-color: #fdbd34;
+  color: white;
+}
+
+.menuContent .cardContent .travelButton .btnDetail:hover {
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.46);
+          box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.46);
+  color: #000000;
+}
+
+.seeDetails {
+  border-bottom: 1px solid black;
+  margin-bottom: 0;
+}
+
+.seeDetails p {
+  color: black;
+  font-size: 18px;
+}
+
+.seeDetails p:hover {
+  color: #06a367;
+}
+
+.ourNetwork {
+  background-color: #f30e0e;
+  margin-top: 5px;
+}
+
+.ourNetwork h1 {
+  font-family: 'Bree Serif', serif;
+  color: rebeccapurple;
+  margin-top: 10px;
+}
+
+.ourNetwork img {
+  width: 150px;
+  height: 100px;
 }
 /*# sourceMappingURL=main.css.map */
