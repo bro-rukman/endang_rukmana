@@ -225,7 +225,7 @@ header .btnGet:hover {
   font-weight: bold;
 }
 
-.reserved {
-  background-color: #686666;
+.breadCrumb .breadCrumbItem {
+  background-color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
