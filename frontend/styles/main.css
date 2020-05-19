@@ -22,6 +22,12 @@ body {
 
 .nav-item:hover {
   border-bottom: 3px solid black;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .btn-login {
@@ -225,7 +231,74 @@ header .btnGet:hover {
   font-weight: bold;
 }
 
-.breadCrumb .breadCrumbItem {
-  background-color: #fff;
+.minHgBreadCrumb {
+  margin-top: -30px;
+  background-color: #dddddd;
+  min-height: 285px;
+}
+
+.bgBreadCrumb {
+  margin-top: -240px;
+  min-height: 100vh;
+}
+
+.bgBreadCrumb .breadCrumbItem a {
+  color: black;
+}
+
+.bgBreadCrumb .breadCrumbItem span.active {
+  font-weight: bold;
+  color: black;
+}
+
+.bgBreadCrumb .imageLeft {
+  padding: 20px;
+}
+
+.bgBreadCrumb .imageLeft .bromo {
+  color: #7c7c7c;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.bgBreadCrumb .imageLeft .features {
+  margin-top: 15px;
+}
+
+.bgBreadCrumb .imageLeft .features .description {
+  padding-left: 3px;
+  overflow: hidden;
+  float: left;
+}
+
+.bgBreadCrumb .imageLeft .features .description h6 {
+  margin-bottom: 0;
+}
+
+.bgBreadCrumb .imageLeft .features .description p {
+  color: #7c7c7c;
+  margin-top: 0;
+}
+
+.bgBreadCrumb .imageLeft .features .description .features-image {
+  float: left;
+  padding-top: 5px;
+}
+
+.bgBreadCrumb .gallery .xzoom-container {
+  display: block;
+}
+
+.bgBreadCrumb .gallery .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.bgBreadCrumb .gallery .xactive {
+  border: 3px solid #046efa;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*# sourceMappingURL=main.css.map */

@@ -28,6 +28,8 @@ body {
 
 .nav-item:hover {
     border-bottom: 3px solid black;
+    transition: transform 0.2s;
+    transform: scale(1.1);
 
 }
 
@@ -255,9 +257,83 @@ header {
     }
 }
 
-.breadCrumb {
+.minHgBreadCrumb {
+    margin-top: -30px;
+    background-color: rgb(221, 221, 221);
+    min-height: 285px;
+}
+
+.bgBreadCrumb {
+    margin-top: -240px;
+    min-height: 100vh;
+
 
     .breadCrumbItem {
-        background-color: #fff;
+        a {
+            color: black;
+        }
+
+        span {
+            &.active {
+                font-weight: bold;
+                color: black;
+            }
+        }
+    }
+
+    .imageLeft {
+        padding: 20px;
+
+        .bromo {
+            color: #7c7c7c;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #cdcdcd;
+        }
+
+        .features {
+            margin-top: 15px;
+
+
+            .description {
+                padding-left: 3px;
+                overflow: hidden;
+                float: left;
+
+
+                h6 {
+                    margin-bottom: 0;
+                }
+
+                p {
+                    color: #7c7c7c;
+                    margin-top: 0;
+                }
+
+                .features-image {
+                    // width: 45px;
+                    // height: 45px;
+                    float: left;
+                    padding-top: 5px;
+
+                }
+            }
+        }
+    }
+
+    .gallery {
+        .xzoom-container {
+            display: block;
+        }
+
+        .xzoom {
+            width: 100%;
+            box-shadow: none;
+            margin-bottom: 10px;
+        }
+
+        .xactive {
+            border: 3px solid #046efa;
+            box-shadow: none;
+        }
     }
 }

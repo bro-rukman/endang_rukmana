@@ -17,6 +17,7 @@
         rel="stylesheet">
     <title class="">travelink / detailPage</title>
     <link rel="stylesheet" href="frontend/styles/main.css">
+    <link rel="stylesheet" href="frontend/xzoom/xzoom.css">
 </head>
 
 <body>
@@ -60,13 +61,107 @@
         </div>
     </nav>
     <!-- Breadcrumb  -->
-    <section class=" breadCrumb container ">
-        <nav class="breadcrumb mt-2 breadCrumbItem pl-0 ">
-            <a class="breadcrumb-item" href="#">Home</a>
-            <a class="breadcrumb-item" href="#">Details</a>
-            <span class="breadcrumb-item active">Package</span>
-        </nav>
+    <section class="minHgBreadCrumb"></section>
+    <section class="bgBreadCrumb">
+        <section class=" container  ">
+            <nav class="breadcrumb breadCrumbItem pl-0 bg-transparent ">
+                <a class="breadcrumb-item" href="#">Home</a>
+                <a class="breadcrumb-item" href="#">Details</a>
+                <span class="breadcrumb-item active">Package</span>
+            </nav>
+
+            <!-- Details photo -->
+
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="card imageLeft">
+                        <h5>BROMO MOUNTAIN</h5>
+                        <p>Malang, Indonesia</p>
+                        <div class="gallery">
+                            <div class="xzoom-container"><img src="frontend/images/package/Mask Group.png" class="xzoom"
+                                    id="xzoom-default" xoriginal="frontend/images/package/Mask Group.png"></div>
+                            <div class="xzoom-thumbs">
+                                <a href="frontend/images/package/Mask Group.png">
+                                    <img src="frontend/images/package/Mask Group.png" class="xzoom-gallery" width="128"
+                                        xpreview="frontend/images/package/Mask Group.png"></a>
+                                <a href="frontend/images/package/Mask Group.png">
+                                    <img src="frontend/images/package/Mask Group.png" class="xzoom-gallery" width="128"
+                                        xpreview="frontend/images/package/Mask Group.png"></a>
+                                <a href="frontend/images/package/Mask Group.png">
+                                    <img src="frontend/images/package/Mask Group.png" class="xzoom-gallery" width="128"
+                                        xpreview="frontend/images/package/Mask Group.png"></a>
+                                <a href="frontend/images/package/Mask Group.png">
+                                    <img src="frontend/images/package/Mask Group.png" class="xzoom-gallery" width="128"
+                                        xpreview="frontend/images/package/Mask Group.png"></a>
+                            </div>
+                        </div>
+                        <h5 class="pt-4">About this Place</h5>
+                        <p3 class="bromo">Bromo mountain terletak di Malang Jawa Timur, cocok untuk anda yang suka
+                            travelling ke gunung dengan udara yang sejuk dan pemandangan yang indah.</p3>
+                        <div class="features row">
+                            <div class="col-md-4 border-right ">
+                                <div class="description">
+                                    <img src="frontend/images/features/sun 1.png" alt="" class="features-image">
+                                    <div class="description">
+                                        <h6>Feature event</h6>
+                                        <p>Sunrise</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 border-right">
+                                <div class="description">
+                                    <img src="frontend/images/features/Group 62.png" alt="" class="features-image">
+                                    <div class="description">
+                                        <h6>Language</h6>
+                                        <p>Bhs Indonesia</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="description">
+                                    <img src="frontend/images/features/food 1.png" alt="" class="features-image">
+                                    <div class="description">
+                                        <h6>Food</h6>
+                                        <p>Local Food</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 rounded">
+                    <div class="card card-detail card-right">
+                        <h4>Members are going</h4>
+                        <div class="members my-2">
+
+                        </div>
+                        <hr>
+                        <h4>Trip information</h4>
+                        <table class="tripInformation">
+                            <tr>
+                                <th width="50%">Date of departure</th>
+                                <td class="text-right">23 July 2017</td>
+                            </tr>
+                            <tr>
+                                <th width="50%">Duration</th>
+                                <td class="text-right">5D 4N</td>
+                            </tr>
+                            <tr>
+                                <th width="50%">Type of trip</th>
+                                <td class="text-right">Open Public</td>
+                            </tr>
+                            <tr>
+                                <th width="50%">Price</th>
+                                <td class="text-right">$53,00/Person</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
+
+
 
     <!-- Footer -->
     <footer class="sideBar mt-5 pt-4 border-top" id="footerBar">
@@ -126,15 +221,24 @@
     <script src="frontend/js/jquery-3.4.1.min.js"></script>
     <script src="frontend/js/main.js"></script>
     <script src="frontend/retina/retina.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
+    <script src="frontend/xzoom/xzoom.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".xzoom, .xzoom-gallery").xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                xoffset: 15
+            })
+        })
+    </script>
+
 </body>
 
 </html>
