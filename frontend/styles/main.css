@@ -301,4 +301,13 @@ header .btnGet:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
+.bgBreadCrumb .joinContainer {
+  margin-top: -15px;
+}
+
+.bgBreadCrumb .joinContainer .btn-joinNow:hover {
+  -webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.46);
+          box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.46);
+}
 /*# sourceMappingURL=main.css.map */
