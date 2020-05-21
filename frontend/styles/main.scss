@@ -22,7 +22,11 @@ body {
             &.active {
                 font-weight: 500;
             }
+
+
         }
+
+
     }
 }
 
@@ -318,6 +322,14 @@ header {
                 }
             }
         }
+
+        .tripInformation {
+            th {
+                font-weight: 400;
+                font-size: 19px;
+                color: #046efa;
+            }
+        }
     }
 
     .gallery {
@@ -348,3 +360,5 @@ header {
         }
     }
 }
+
+.checkout-details {}

@@ -285,6 +285,12 @@ header .btnGet:hover {
   padding-top: 5px;
 }
 
+.bgBreadCrumb .imageLeft .tripInformation th {
+  font-weight: 400;
+  font-size: 19px;
+  color: #046efa;
+}
+
 .bgBreadCrumb .gallery .xzoom-container {
   display: block;
 }

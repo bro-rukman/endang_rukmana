@@ -7,244 +7,209 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- Google Font -->
     <link
         href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Passion+One:wght@700&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
-    <title class="">travelink / detailPage</title>
+    <title class="">travelink / checkoutPage</title>
     <link rel="stylesheet" href="frontend/styles/main.css">
     <link rel="stylesheet" href="frontend/xzoom/xzoom.css">
+    <link rel="stylesheet" href="frontend/gijgo/css/gijgo.min.css">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="row navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container">
-            <a href="#" class="navbar-brand"><img src="frontend/images/TravelinK.png" alt=""></a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navBar"><span class="navbar-toggler-icon">
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navBar">
-                <ul class="navbar-nav ml-auto mr-3">
-                    <li class="nav-item mx-md-2">
-                        <a href="" class="nav-link active">Home</a>
-                    </li>
-                    <li class="nav-item mx-md-2">
-                        <a href="" class="nav-link">Travel package</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Service</a>
-                        <div class="dropdown-menu">
-                            <a href="" class="dropdown-item">VISA</a>
-                            <a href="" class="dropdown-item">Passport</a>
-                        </div>
-                    </li>
-                </ul>
-                <!-- mobile button -->
-                <form class="form-inline d-sm-block d-md-none">
-                    <button class="btn btn-login  my-2 my-sm-0 rounded">
-                        Login
-                    </button>
-                </form>
-                <!-- Desktop button -->
-                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
-                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4 rounded">
-                        Login
-                    </button>
-                </form>
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-light m-0">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-md-auto mr-lg-0">
+                <a href="index.html" class="navbar-brand"><img src="frontend/images/TravelinK.png"></a>
             </div>
-        </div>
-    </nav>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+                <li><span class="text-muted headline" style="font-family: 'Roboto', sans-serif;"> | &nbsp; Find your
+                        trip here</span></li>
+            </ul>
+        </nav>
+    </div>
     <!-- Breadcrumb  -->
-    <section class="minHgBreadCrumb"></section>
-    <section class="bgBreadCrumb">
-        <section class=" container  ">
+    <section class="backgroundBreadCrumb">
+        <section class=" container">
             <nav class="breadcrumb breadCrumbItem pl-0 bg-transparent ">
-                <a class="breadcrumb-item" href="#">Home</a>
-                <a class="breadcrumb-item" href="#">Details</a>
-                <span class="breadcrumb-item active">Package</span>
+                <a class="breadcrumb-item" href="index.html">Home</a>
+                <a class="breadcrumb-item" href="detailPage.html">Details</a>
+                <a class="breadcrumb-item" href="detailPage.html">Package</a>
+                <span class="breadcrumb-item active">Checkout</span>
             </nav>
+        </section>
+        <!-- CheckoutLeft -->
+        <section class="checkout-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="card checkoutLeft p-3">
+                            <h5>Who is going ?</h5>
+                            <p>To Bromo Mountain, Malang, Indonesia</p>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Picture</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Nationality</th>
+                                        <th scope="col">VISA</th>
+                                        <th scope="col">Passport</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><img src="frontend/images/members/Group 43.png" alt="">
+                                        </th>
+                                        <td class="align-middle">Endang Rukmana</td>
+                                        <td class="align-middle">Indonesia</td>
+                                        <td class="align-middle">15 days</td>
+                                        <td class="align-middle">Active</td>
+                                        <td class="align-middle"><a href="#"><img src="frontend/images/close/+.png"
+                                                    alt=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="frontend/images/members/Group 43.png" alt="">
+                                        </th>
+                                        <td class="align-middle">Endang Rukmana</td>
+                                        <td class="align-middle">Indonesia</td>
+                                        <td class="align-middle">15 days</td>
+                                        <td class="align-middle">Active</td>
+                                        <td class="align-middle"><a href="#"><img src="frontend/images/close/+.png"
+                                                    alt=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="frontend/images/members/Group 43.png" alt="">
+                                        </th>
+                                        <td class="align-middle">Endang Rukmana</td>
+                                        <td class="align-middle">Indonesia</td>
+                                        <td class="align-middle">15 days</td>
+                                        <td class="align-middle">Active</td>
+                                        <td class="align-middle"><a href="#"><img src="frontend/images/close/+.png"
+                                                    alt=""></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="members">
+                                <h5>Add members</h5>
+                                <form class="form-inline">
 
-            <!-- Details photo -->
-
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="card imageLeft">
-                        <h5>BROMO MOUNTAIN</h5>
-                        <p>Malang, Indonesia</p>
-                        <div class="gallery">
-                            <div class="xzoom-container"><img src="frontend/images/package/Mask Group.png" class="xzoom"
-                                    id="xzoom-default" xoriginal="frontend/images/package/Mask Group.png"></div>
-                            <div class="xzoom-thumbs">
-                                <a href="frontend/images/package/Mask Group.png">
-                                    <img src="frontend/images/package/Mask Group.png" class="xzoom-gallery" width="128"
-                                        xpreview="frontend/images/package/Mask Group.png"></a>
-                                <a href="frontend/images/package/Mask Group.png">
-                                    <img src="frontend/images/package/Mask Group.png" class="xzoom-gallery" width="128"
-                                        xpreview="frontend/images/package/Mask Group.png"></a>
-                                <a href="frontend/images/package/Mask Group.png">
-                                    <img src="frontend/images/package/Mask Group.png" class="xzoom-gallery" width="128"
-                                        xpreview="frontend/images/package/Mask Group.png"></a>
-                                <a href="frontend/images/package/Mask Group.png">
-                                    <img src="frontend/images/package/Mask Group.png" class="xzoom-gallery" width="128"
-                                        xpreview="frontend/images/package/Mask Group.png"></a>
-                            </div>
-                        </div>
-                        <h5 class="pt-4">About this Place</h5>
-                        <p3 class="bromo">Bromo mountain terletak di Malang Jawa Timur, cocok untuk anda yang suka
-                            travelling ke gunung dengan udara yang sejuk dan pemandangan yang indah.</p3>
-                        <div class="features row">
-                            <div class="col-md-4 border-right ">
-                                <div class="description">
-                                    <img src="frontend/images/features/sun 1.png" alt="" class="features-image">
-                                    <div class="description">
-                                        <h6>Feature event</h6>
-                                        <p>Sunrise</p>
+                                    <label for="inputUsername" class="sr-only">Name</label>
+                                    <input type="text" name="inputUsername" class="form-control mb-2 mr-sm-2"
+                                        id="inputUsername" placeholder="username">
+                                    <label for="inputVisa" class="sr-only">Visa</label>
+                                    <select name="inputVisa" class=" form-control custom-select mb-2 mr-sm-2"
+                                        id="inputVisa">
+                                        <option value="Visa" selected>Visa</option>
+                                        <option value="30 days">30 Days</option>
+                                        <option value="15 days">15 Days</option>
+                                    </select>
+                                    <label for="doePassport" class="sr-only">DOE Passport</label>
+                                    <div class="form-group mb-2 mr-sm-2">
+                                        <input type="text" class="form-control datepicker" name="" id="doePassport"
+                                            placeholder="DOE Passport">
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 border-right">
-                                <div class="description">
-                                    <img src="frontend/images/features/Group 62.png" alt="" class="features-image">
-                                    <div class="description">
-                                        <h6>Language</h6>
-                                        <p>Bhs Indonesia</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 ">
-                                <div class="description">
-                                    <img src="frontend/images/features/food 1.png" alt="" class="features-image">
-                                    <div class="description">
-                                        <h6>Food</h6>
-                                        <p>Local Food</p>
-                                    </div>
-                                </div>
+                                    <button type="submit"
+                                        class="btn btn-outline-primary text-dark btnAddNow mb-2 px-4">Add
+                                        Now</button>
+                                </form>
+                                <h6 class="mt-4 mb-0">Note</h6>
+                                <p class="text-muted">You are only able to invite members that has registered on
+                                    TravelinK</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 ">
-                    <div class="card card-details card-right p-3">
-                        <h4>Members are going</h4>
-                        <div class="members my-2">
-                            <img src="frontend/images/members/Group 43.png" alt="" class="member-image mr-1">
-                            <img src="frontend/images/members/Group 43.png" alt="" class="member-image mr-1">
-                            <img src="frontend/images/members/Group 43.png" alt="" class="member-image mr-1">
-                            <img src="frontend/images/members/Group 43.png" alt="" class="member-image mr-1">
-                            <img src="frontend/images/members/Group 63.png" alt="" class="member-image mr-1">
-                        </div>
-                        <hr>
-                        <h4>Trip information</h4>
-                        <table class="tripInformation">
-                            <tr>
-                                <th width="50%">Date of departure</th>
-                                <td class="text-right">23 July 2017</td>
-                            </tr>
-                            <tr>
-                                <th width="50%">Duration</th>
-                                <td class="text-right">5D 4N</td>
-                            </tr>
-                            <tr>
-                                <th width="50%">Type of trip</th>
-                                <td class="text-right">Open Public</td>
-                            </tr>
-                            <tr>
-                                <th width="50%">Price</th>
-                                <td class="text-right">$53,00/Person</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="joinContainer"><a href="#" class="btn btn-block btn-primary btn-joinNow mt-3 py-2">Join
-                            trip</a>
+                    <div class="col-lg-3 bg-primary">
+                        <div class="card"></div>
                     </div>
                 </div>
             </div>
         </section>
-    </section>
 
-
-
-    <!-- Footer -->
-    <footer class="sideBar mt-5 pt-4 border-top" id="footerBar">
-        <div class="container">
-            <div class="footerRow row justify-content-center">
-                <div class="col-11 ">
-                    <div class="row ">
-                        <div class="col-12 col-sm-6 col-lg-3 ">
-                            <h5>FEATURES</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="">Reviews</a></li>
-                                <li><a href="">Community</a></li>
-                                <li><a href="">Affiliate</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-3">
-                            <h5>ACCOUNT</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="">Login</a></li>
-                                <li><a href="">Security</a></li>
-                                <li><a href="">Rewards</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-3">
-                            <h5>COMPANY</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="">Career</a></li>
-                                <li><a href="">Social media</a></li>
-                                <li><a href="">Terms and Condition</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-3">
-                            <h5>GET CONNECTED</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="">Jakarta Selatan, Indonesia</a></li>
-                                <li><a href="">+62 819 124 259 40</a></li>
-                                <li><a href="">support@travelink.id</a></li>
-                            </ul>
+        <!-- Footer -->
+        <footer class="sideBar mt-5 pt-4 border-top" id="footerBar">
+            <div class="container">
+                <div class="footerRow row justify-content-center">
+                    <div class="col-11 ">
+                        <div class="row ">
+                            <div class="col-12 col-sm-6 col-lg-3 ">
+                                <h5>FEATURES</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="">Reviews</a></li>
+                                    <li><a href="">Community</a></li>
+                                    <li><a href="">Affiliate</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <h5>ACCOUNT</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="">Login</a></li>
+                                    <li><a href="">Security</a></li>
+                                    <li><a href="">Rewards</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <h5>COMPANY</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="">Career</a></li>
+                                    <li><a href="">Social media</a></li>
+                                    <li><a href="">Terms and Condition</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <h5>GET CONNECTED</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="">Jakarta Selatan, Indonesia</a></li>
+                                    <li><a href="">+62 819 124 259 40</a></li>
+                                    <li><a href="">support@travelink.id</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <section class="container-fluid">
-        <div class="row align-items-center border-top justify-content-center pt-2">
-            <div class="col-auto text-gray-500 font-weight-light">
-                <p>2020. Copyright travelink. Allright reserved. Jakarta Selatan</p>
+        </footer>
+        <section class="container-fluid">
+            <div class="row align-items-center border-top justify-content-center pt-2">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    <p>2020. Copyright travelink. Allright reserved. Jakarta Selatan</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="frontend/js/jquery-3.4.1.min.js"></script>
-    <script src="frontend/js/main.js"></script>
-    <script src="frontend/retina/retina.min.js"></script>
-    <script src="frontend/xzoom/xzoom.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(".xzoom, .xzoom-gallery").xzoom({
-                zoomWidth: 500,
-                title: false,
-                tint: '#333',
-                xoffset: 15
-            })
-        })
-    </script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="frontend/js/jquery-3.4.1.min.js"></script>
+        <script src="frontend/js/main.js"></script>
+        <script src="frontend/retina/retina.min.js"></script>
+        <script src="frontend/xzoom/xzoom.min.js"></script>
+        <script src="frontend/gijgo/js/gijgo.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+        </script>
+        <script>
+            $(document).ready(function () {
+                $(".xzoom, .xzoom-gallery").xzoom({
+                    zoomWidth: 500,
+                    title: false,
+                    tint: '#333',
+                    xoffset: 15
+                });
+                $('.datepicker').datepicker({
+                    uiLibrary: 'bootstrap4',
+                    icons: {
+                        rightIcon: '<img src = "frontend/images/members/event1.png" /> ',
+                    }
+                })
+            });
+
+            $('')
+        </script>
 
 </body>
 
