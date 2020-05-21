@@ -285,12 +285,6 @@ header .btnGet:hover {
   padding-top: 5px;
 }
 
-.bgBreadCrumb .imageLeft .tripInformation th {
-  font-weight: 400;
-  font-size: 19px;
-  color: #046efa;
-}
-
 .bgBreadCrumb .gallery .xzoom-container {
   display: block;
 }
@@ -308,6 +302,11 @@ header .btnGet:hover {
           box-shadow: none;
 }
 
+.bgBreadCrumb .card-details .tripInformation th {
+  font-weight: 400;
+  font-size: 17px;
+}
+
 .bgBreadCrumb .joinContainer {
   margin-top: -15px;
 }
@@ -315,5 +314,63 @@ header .btnGet:hover {
 .bgBreadCrumb .joinContainer .btn-joinNow:hover {
   -webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.46);
           box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.46);
+}
+
+.backgroundBreadCrumb .breadCrumbItem a {
+  color: #000000;
+}
+
+.backgroundBreadCrumb .breadCrumbItem span.active {
+  font-weight: bold;
+  color: black;
+}
+
+.backgroundBreadCrumb .checkout-details .checkoutLeft .members .btnAddNow:hover {
+  -webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.46);
+          box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.46);
+}
+
+.backgroundBreadCrumb .checkout-details .cardCheckout th {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7c7c7c;
+}
+
+.backgroundBreadCrumb .checkout-details .cardCheckout td {
+  font-size: 16px;
+  color: #7c7c7c;
+}
+
+.backgroundBreadCrumb .checkout-details .cardCheckout td.active {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.backgroundBreadCrumb .checkout-details .cardCheckout p {
+  font-size: 14px;
+}
+
+.backgroundBreadCrumb .checkout-details .cardCheckout .bank {
+  padding-left: 3px;
+  overflow: hidden;
+  float: left;
+}
+
+.backgroundBreadCrumb .checkout-details .cardCheckout .bank .bankItem {
+  float: left;
+  margin-right: 6px;
+}
+
+.backgroundBreadCrumb .checkout-details .cardCheckout .bank .bankDetail p {
+  margin-bottom: 0;
+}
+
+.backgroundBreadCrumb .checkout-details .cardCheckout .btn-cancel {
+  color: #000000;
+}
+
+.backgroundBreadCrumb .checkout-details .cardCheckout .btn-cancel:hover {
+  color: red;
 }
 /*# sourceMappingURL=main.css.map */

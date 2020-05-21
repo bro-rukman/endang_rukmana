@@ -267,6 +267,7 @@ header {
     min-height: 285px;
 }
 
+// section detailPage
 .bgBreadCrumb {
     margin-top: -240px;
     min-height: 100vh;
@@ -285,6 +286,7 @@ header {
         }
     }
 
+    // imageLeft
     .imageLeft {
         padding: 20px;
 
@@ -323,13 +325,7 @@ header {
             }
         }
 
-        .tripInformation {
-            th {
-                font-weight: 400;
-                font-size: 19px;
-                color: #046efa;
-            }
-        }
+
     }
 
     .gallery {
@@ -349,16 +345,105 @@ header {
         }
     }
 
+    // carddetails
+    .card-details {
+        .tripInformation {
+            th {
+                font-weight: 400;
+                font-size: 17px;
+            }
+        }
+    }
+
     .joinContainer {
         margin-top: -15px;
 
         .btn-joinNow {
             &:hover {
                 box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.46);
+            }
+        }
+    }
 
+}
+
+// checkout page
+.backgroundBreadCrumb {
+    .breadCrumbItem {
+        a {
+            color: #000000;
+        }
+
+        span {
+            &.active {
+                font-weight: bold;
+                color: black;
+            }
+        }
+    }
+
+    .checkout-details {
+        .checkoutLeft {
+
+            .members {
+                .btnAddNow {
+
+
+                    &:hover {
+                        box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.46);
+
+                    }
+
+                }
+            }
+        }
+
+        .cardCheckout {
+            th {
+                font-weight: 400;
+                font-size: 16px;
+                color: #7c7c7c;
+            }
+
+            td {
+                font-size: 16px;
+                color: #7c7c7c;
+
+                &.active {
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #000000;
+                }
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .bank {
+                padding-left: 3px;
+                overflow: hidden;
+                float: left;
+
+                .bankItem {
+                    float: left;
+                    margin-right: 6px;
+                }
+
+                .bankDetail {
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .btn-cancel {
+                color: #000000;
+
+                &:hover {
+                    color: red;
+                }
             }
         }
     }
 }
-
-.checkout-details {}
