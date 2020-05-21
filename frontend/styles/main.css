@@ -373,4 +373,34 @@ header .btnGet:hover {
 .backgroundBreadCrumb .checkout-details .cardCheckout .btn-cancel:hover {
   color: red;
 }
+
+.successPage .fadeIn {
+  margin-top: 120px;
+  margin-bottom: 30px;
+  -webkit-animation: fade-in 2s;
+          animation: fade-in 2s;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.successPage button:hover {
+  -webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.46);
+          box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.46);
+}
 /*# sourceMappingURL=main.css.map */
